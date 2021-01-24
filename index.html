@@ -1,0 +1,458 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Sandbox</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/icons/foundation-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+        integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <style>
+        .spacer {
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Site Title</li>
+                <li>
+                    <a href="#">One</a>
+                    <ul class="menu vertical">
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <!-- TYPOGRAPHY -->
+    <div class="row">
+        TEST
+        <!-- HEADING -->
+        <h1>
+            Heading <small>secondary text</small>
+        </h1>
+        <h2 class="subheader">heading <small>secondary text</small></h2>
+        <!-- PARAGRAPH -->
+        <p class="lead"><strong>Lorem</strong>, ipsum <em>test</em> dolor sit amet consectetur adipisicing elit. Dicta
+            omnis beatae
+            repellat in eos praesentium
+            porro sapiente magni enim <a href="">test</a>tempora. Rem quod in numquam! Cum, facere repellat? Ab,
+            provident aliquam.</p>
+        <p>test</p>
+        <div class="stat">2039</div>
+        <hr>
+
+        <!-- ALIGNMENT CLASSES -->
+        <p class="text-left">text aligned left</p>
+        <p class="text-right">text aligned right</p>
+        <p class="text-center">text aligned center</p>
+        <p class="text-justify">Justified text</p>
+
+        <!-- FLOAT CLASSES -->
+
+        <div class="callout clearfix">
+            <a class="button float-left" href="">Left</a>
+            <a class="button float-right" href="">Right</a>
+        </div>
+
+        <code> &lt;div class="myClass"&gt;Hello World&lt;/div&gt;</code>
+        <p>Press <kbd>Cmd + r</kbd> (or <kbd>Ctl + r</kbd> on Windows).</p>
+
+        <hr>
+        <!-- BLOCKQUOTES -->
+        <blockquote>
+            This is a blockquote from Alex.
+            <cite>Alex</cite>
+        </blockquote>
+
+        <!-- LISTS -->
+        <ul class="no-bullet">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ul>
+                    <li>Nested Item 1</li>
+                    <li>Nested Item 2</li>
+                </ul>
+            </li>
+            <li>Item 4</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
+        <!-- VISIBILITY -->
+
+        <p class="hide">Hidden</p>
+        <p class="invisible">Invisible</p>
+        <p>You are on a small screen or larger</p>
+        <p class="show-for-medium">You are on a medium screen or larger</p>
+        <p class="show-for-large">You are on a large screen or larger</p>
+        <p class="hide-for-small-only">You are not on a small screen</p>
+        <p class="hide-for-medium-only">You are not on a medium screen</p>
+        <p class="hide-for-large-only">You are not on a large screen</p>
+        <p class="show-for-landscape">You are in landscape</p>
+        <p class="show-for-portrait">You are in portrait</p>
+
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <!-- BUTTONS -->
+        <button class="button">Button</button>
+        <a href="#" class="button">Link</a>
+        <input type="button" class="button" value="input">
+
+        <!-- COLORED BUTTONS -->
+        <br>
+        <button class="success button">Button</button>
+        <button class="alert button">Button</button>
+        <button class="warning button">Button</button>
+        <button class="secondary button">Button</button>
+        <button class="disabled button">Button</button>
+
+        <!-- SIZED BUTTONS -->
+        <br>
+
+        <button class="tiny button">Button</button>
+        <button class="small button">Button</button>
+        <button class="button">Button</button>
+        <button class="large button">Button</button>
+        <button class="expanded large button">Button</button>
+        <button class="expanded button">Button</button>
+
+        <!-- HOLLOW BUTTONS -->
+        <br>
+
+        <button class="succes button hollow">Button</button>
+        <button class="alert button hollow">Button</button>
+        <button class="warning button hollow">Button</button>
+        <button class="secondary button hollow">Button</button>
+        <button class="disabled button hollow">Button</button>
+    </div>
+
+    <div class="row">
+
+        <!-- FORMS -->
+        <form>
+            <div>
+                <label>Name
+                </label>
+                <input type="text" placeholder="name">
+
+            </div>
+        </form>
+        <div>
+            <label>Email
+            </label>
+            <input type="email" placeholder="email">
+
+        </div>
+
+        <div>
+            <label>Number
+            </label>
+            <input type="number">
+
+        </div>
+
+        <div>
+            <label>Message
+            </label>
+            <textarea placeholder="say something nice"></textarea>
+        </div>
+
+        <div>
+            <label>Gender
+            </label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div>
+            <label>Gender
+            </label>
+            <select multiple>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <fieldset class="fieldset">
+            <legend>
+                A Fieldset
+            </legend>
+            <input type="checkbox"> <label>checkbox</label>
+            <input type="checkbox"> <label>checkbox</label>
+            <input type="checkbox"> <label>checkbox</label>
+            <br>
+            <input type="checkbox"><label>another checkbox</label>
+            <input type="checkbox"><label>another checkbox</label>
+            <input type="checkbox"><label>another checkbox</label>
+        </fieldset>
+        <label for="fileUpload" class="button">upload file</label>
+        <input type="file" id="fileUpload" class="show-for-sr">
+
+        <label for="">password</label>
+        <input type="password">
+        <p class="help-text">your password must be in greek</p>
+
+        <div class="input-group">
+            <span class="input-group-label">@
+            </span>
+            <input type="email" class="input-group-field">
+            <div class="input-group-button">
+                <input type="submit" class="button" value="submit">
+            </div>
+        </div>
+
+        <div class="switch">
+            <input class="switch-input" id="mySwitch" type="checkbox" name="exampleSwitch">
+            <label class="switch-paddle" for="mySwitch">
+                <span class="show-for-sr">enabled</span>
+            </label>
+        </div>
+
+        <div class="slider" data-slider data-initial-start='0' data-end='20'>
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+            <input type="hidden">
+        </div>
+        </form>
+    </div>
+    <div class="row">
+        <table class="unstriped hover stack">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Jill</th>
+                <th>Smith</th>
+                <th>50</th>
+            </tr>
+            <tr>
+                <th>Eve</th>
+                <th>Jackson</th>
+                <th>24</th>
+            </tr>
+            <tr>
+                <th>Stephanie</th>
+                <th>Landon</th>
+                <th>47</th>
+            </tr>
+            <tr>
+                <th>Mike</th>
+                <th>Johnson</th>
+                <th>19</th>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        <!-- MENU -->
+        <ul class="menu">
+            <li class="menu-text">site title</li>
+            <li><a href="#">link 1</a></li>
+            <li class="active"><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+
+        <ul class="menu vertical">
+            <li class="menu-text">site title</li>
+            <li><a href="#">link 1</a></li>
+            <li class="active"><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+
+        <ul class="menu simple">
+            <li class="menu-text">site title</li>
+            <li><a href="#">link 1</a></li>
+            <li class="active"><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+
+        <ul class="menu icon-top">
+            <li><a href="#"><i class="fi-list"></i><span>One</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span>Two</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span>Three</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span>Four</span></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="#"><i class="fi-list"></i><span> One</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span> Two</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span> Three</span></a></li>
+            <li><a href="#"><i class="fi-list"></i><span> Four</span></a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <!-- CALLOUTS -->
+        <div class="callout">
+            <p>This is an example of a callout.</p>
+        </div>
+        <div class="callout secondary">
+            <p>This is an example of a callout.</p>
+        </div>
+        <div class="callout succes">
+            <p>This is an example of a callout.</p>
+        </div>
+        <div class="callout warning">
+            <p>This is an example of a callout.</p>
+        </div>
+        <div class="callout alert">
+            <p>This is an example of a callout.</p>
+        </div>
+        <hr>
+
+        <!-- PROGRESS BARS -->
+        <div class="success progress" role="progress">
+            <div class="progress-meter" style="width: 25%;">
+                <p class="progress-meter-text">
+                    25%
+                </p>
+            </div>
+        </div>
+        <div class="alert progress" role="progress">
+            <div class="progress-meter" style="width: 98%;">
+                <p class="progress-meter-text">
+                    98%
+                </p>
+            </div>
+        </div>
+        <div class="warning progress" role="progress">
+            <div class="progress-meter" style="width: 75%;">
+                <p class="progress-meter-text">
+                    75%
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- LABELS -->
+        <span class="secondary label">Secondary Label</span>
+        <span class="success label">Success Label</span>
+        <span class="alert label">Alert Label</span>
+        <span class="warning label">Warning Label</span>
+
+        <hr>
+
+        <!-- BADGE -->
+
+        <span class="secondary badge">A</span>
+        <span class="success badge">2</span>
+        <span class="alert badge">3</span>
+        <span class="warning badge">B</span>
+
+        <hr>
+
+        <!-- BREADCRUMBS -->
+
+        <nav role="navigation">
+            <ul class="breadcrumbs">
+                <li><a href="#">home</a></li>
+                <li><a href="#">posts</a></li>
+                <li class="disabled">disabled</li>
+                <li>my post</li>
+            </ul>
+        </nav>
+
+        <hr>
+        <!-- PAGINATION -->
+
+        <ul class="pagination" role="navigation">
+            <li class="disabled">previous</li>
+            <li class="current">1</li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li class="ellipsis"></li>
+            <li><a href="#">13</a></li>
+            <li><a href="#">14</a></li>
+            <li><a href="#">next</a></li>
+        </ul>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid-x">
+        <div class="cell">full width cell</div>
+        <div class="cell">full width cell</div>
+    </div>
+    <div class="grid-x">
+        <div class="small-6 cell">6 cells</div>
+        <div class="small-6 cell">6 cells</div>
+    </div>
+    <div class="grid-x">
+        <div class="medium-6 large-4 cell">12/6/4 cells</div>
+        <div class="medium-6 large-8 cell">12/6/8 cells</div>
+    </div>
+
+
+    <hr>
+
+    <!-- CARDS -->
+    <div class="row">
+        <div class="card" style="width: 300px;">
+            <div class="card-divider">
+                This is a header
+            </div>
+            <img src="https://get.foundation/sites/docs/assets/img/generic/rectangle-1.jpg">
+            <div class="card-section">
+                <h4>This is a card.</h4>
+                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+            </div>
+        </div>
+
+        <!-- MEDIA OBJECT -->
+        <div class="media-object">
+            <div class="media-object-section">
+                <div class="thumbnail">
+                    <img src="https://get.foundation/sites/docs/assets/img/media-object/avatar-1.jpg">
+                </div>
+            </div>
+            <div class="media-object-section">
+                <h4>Dreams feel real while we're in them.</h4>
+                <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An
+                    idea is
+                    like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to
+                    define or
+                    destroy you.</p>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <script src="assets/js/vendor.js"></script>
+        <script src="assets/js/foundation.js"></script>
+</body>
+
+</html>
